@@ -9,7 +9,7 @@ Unlike conventional mask-supervised methods that focus primarily on spatial diff
 ## Overview
 
 <p align="center">
-  <img src="figures/taco.pdf" width="800">
+  <img src="figures/taco.png" width="800">
 </p>
 TaCo is built upon a siamese encoder–decoder architecture and introduces a **spatio-temporal semantic joint constraint** to complement conventional mask supervision.
 The core idea is to treat change as a semantic transition, where the feature representation of one temporal state can be conceptually reconstructed from the other via learned transition features.
